@@ -1,26 +1,27 @@
 <template>
-  <div class="nav-item">
+  <div class="header-container">
     <span>{{ title }}</span>
+    <slot />
   </div>
 </template>
 
 <script setup lang="ts">
 import { defineProps } from 'vue';
-defineProps({
+const props = defineProps({
   title: {
     type: String,
-    required: true
+    default: 'Welcome!'
   }
 });
+
+props.title;
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.nav-item {
-  padding: 16px;
-}
-span {
-  font-size: 18px;
-  font-weight: 700;
+.header-container {
+  display: flex;
+  padding: 10px;
+  height: 30px;
 }
 </style>
