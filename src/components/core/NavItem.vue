@@ -1,7 +1,7 @@
 <template>
-  <div class="nav-item">
+  <li class="nav-item">
     <span>{{ title }}</span>
-  </div>
+  </li>
 </template>
 
 <script setup lang="ts">
@@ -14,13 +14,20 @@ defineProps({
 });
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+li {
+  list-style-type: none;
+}
 .nav-item {
-  padding: 16px;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+.nav-item:hover {
+  background-color: rgb(0, 0, 0, 0.1);
 }
 span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
 }
 </style>

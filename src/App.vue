@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <AppHeader />
+    <HomeDashboard />
   </div>
 </template>
 
@@ -12,11 +13,34 @@ import AppHeader from './components/AppHeader.vue';
 *, *::after, *::before {
   box-sizing: border-box;
 }
+
+:root {
+  --header-text-weight: 700;
+  --button-text-weight: 500;
+  --body-text-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans',
-  Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   color: #262626;
 }
