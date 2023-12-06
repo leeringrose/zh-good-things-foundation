@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue" src="./assets/logo.png">
-    <NavItem title="click" />
+    <AppHeader />
   </div>
 </template>
 
 <script setup lang="ts">
-import NavItem from './components/NavItem.vue';
-
+import AppHeader from './components/AppHeader.vue';
 </script>
 
 <style>
+*, *::after, *::before {
+  box-sizing: border-box;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans',
+  Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #262626;
 }
 </style>
