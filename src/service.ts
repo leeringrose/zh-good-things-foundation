@@ -9,7 +9,7 @@ export const navTitles = [
 
 export const dashboardTitles = [
   'Digital Inclusion: Time for Action Not Words',
-  'we\'re a charity with one clear mission: to Fix the Digital Divide - for Good.',
+  'We\'re a charity with one clear mission: to Fix the Digital Divide - for Good.',
   'Our policy asks'
 ];
 
@@ -23,4 +23,9 @@ export const dashboardExcerpts = [
   `We're calling for the Government to act on digital inclusion with
   three clear policy asks: co-invest to help more digitally excluded 
   people, scrap broadband VAT, and reuse tech for social good.`
+];
+
+export const dashboardBlockBackgrounds = [
+  'https://www.goodthingsfoundation.org/wp-content/uploads/2023/10/Website-banners-Canva-Banner-2.png',
+
 ];

@@ -1,6 +1,9 @@
 <!-- eslint-disable max-len -->
 <template>
-  <section class="promotional-block">
+  <section
+    :style="`background-image: url(${backgroundPath})`"
+    class="promotional-block"
+  >
     <div class="container">
       <h1 class="large promotional-block-title">
         {{ title }}
@@ -24,6 +27,11 @@ defineProps({
   excerpt: {
     type: String,
     default: 'Block excerpt here'
+  },
+  backgroundPath: {
+    type: String,
+    default: 'path',
+    requird: true
   }
 });
 </script>
@@ -34,9 +42,6 @@ section {
   background-size: cover;
   position: relative;
   width: 100%;
-  background-image: url(
-    "https://www.goodthingsfoundation.org/wp-content/uploads/2023/10/Website-banners-Canva-Banner-2.png"
-    );
 }
 .promotional-block {
   background-position: 50%;
@@ -56,7 +61,6 @@ section {
   padding-top: 5.0625rem;
   padding-bottom: 5.0625rem;
 }
-
 .promotional-block-title {
   width: fit-content;
   color: white;

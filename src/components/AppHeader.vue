@@ -1,5 +1,5 @@
 <template>
-  <header class="header-container">
+  <header class="section header-container">
     <a
       href="https://www.goodthingsfoundation.org"
       class="standard-header-logo"
@@ -11,15 +11,17 @@
         width="auto"
       >
     </a>
-    <ul class="hadear-nav-container">
-      <NavItem
-        v-for="(title, index) in navTitles"
-        :key="index"
-        :title="title"
-      >
-        {{ title }}
-      </NavItem>
-    </ul>
+    <nav>
+      <ul class="hadear-nav-container">
+        <NavItem
+          v-for="(title, index) in navTitles"
+          :key="index"
+          :title="title"
+        >
+          {{ title }}
+        </NavItem>
+      </ul>
+    </nav>
   </header>
 </template>
 

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <UtilityHeader />
     <AppHeader />
     <HomeDashboard />
   </div>
@@ -7,6 +8,7 @@
 
 <script setup lang="ts">
 import AppHeader from './components/AppHeader.vue';
+import UtilityHeader from './components/UtilityHeader.vue';
 import HomeDashboard from './pages/HomeDashboard.vue';
 </script>
 
@@ -18,6 +20,7 @@ import HomeDashboard from './pages/HomeDashboard.vue';
 body {
   margin: 0;
   padding: 0;
+  color: #000;
 }
 
 a {
@@ -56,4 +59,9 @@ h6 {
   font-weight: 500;
   line-height: 1.5;
 }
+
+.section {
+  border-top: 1px solid #ccc;
+}
+
 </style>
