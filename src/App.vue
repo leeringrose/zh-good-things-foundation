@@ -7,17 +7,12 @@
 
 <script setup lang="ts">
 import AppHeader from './components/AppHeader.vue';
+import HomeDashboard from './pages/HomeDashboard.vue';
 </script>
 
 <style>
 *, *::after, *::before {
   box-sizing: border-box;
-}
-
-:root {
-  --header-text-weight: 700;
-  --button-text-weight: 500;
-  --body-text-weight: 400;
 }
 
 body {
@@ -41,7 +36,24 @@ h6 {
 
 #app {
   font-family: Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
   color: #262626;
+}
+
+.large {
+  font-size: 3.375em;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.standard {
+  font-size: 1.5em;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.navigation {
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.5;
 }
 </style>
