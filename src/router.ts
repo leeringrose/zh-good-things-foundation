@@ -1,10 +1,10 @@
 import { createWebHistory, createRouter } from 'vue-router';
-import HomeDashboard from './pages/HomeDashboard.vue';
-import DigitalDivide from './pages/DigitalDivide.vue';
-import WhatWeDo from './pages/WhatWeDo.vue';
-import InSights from './pages/InSights.vue';
-import GetInvolved from './pages/GetInvolved.vue';
-import OutNetwork from './pages/OutNetwork.vue';
+import HomeDashboard from './views/HomeDashboard.vue';
+import DigitalDivide from './views/DigitalDivide.vue';
+import WhatWeDo from './views/WhatWeDo.vue';
+import InSights from './views/InSights.vue';
+import GetInvolved from './views/GetInvolved.vue';
+import OutNetwork from './views/OutNetwork.vue';
 import HeaderLayout from './layouts/HeaderLayout.vue';
 
 const routes = [
