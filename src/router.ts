@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from 'vue-router';
+import { createWebHashHistory, createRouter } from 'vue-router';
 import HomeDashboard from './views/HomeDashboard.vue';
 import DigitalDivide from './views/DigitalDivide.vue';
 import WhatWeDo from './views/WhatWeDo.vue';
@@ -48,7 +48,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory('/zh-good-things-foundation/'),
   routes
 });
 
