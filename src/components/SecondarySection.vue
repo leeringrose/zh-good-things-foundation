@@ -44,7 +44,6 @@ defineProps({
     requird: true
   }
 });
-
 </script>
 
 <style scoped>

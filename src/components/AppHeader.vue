@@ -28,14 +28,11 @@
 </template>
 
 <script setup lang="ts">
-
 import NavItem from './core/NavItem.vue';
 import { navTitles } from '@/service';
-
 </script>
 
 <style scoped>
-
 img {
   border: none;
   display: block;

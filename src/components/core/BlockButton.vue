@@ -15,6 +15,7 @@
 
 <script setup lang="ts">
 import { defineProps } from 'vue';
+
 defineProps({
   title: {
     type: String,
@@ -45,7 +46,6 @@ a {
   flex-direction: column;
   margin-top: 1.5rem;
 }
-
 .btn {
   padding: 0.6667em 1.5em;
   background-color: white;

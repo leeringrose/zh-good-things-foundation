@@ -30,7 +30,6 @@ defineProps({
     default: 'button'
   }
 });
-
 </script>
 
 <style scoped>
