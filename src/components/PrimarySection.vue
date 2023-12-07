@@ -1,4 +1,3 @@
-<!-- eslint-disable max-len -->
 <template>
   <section
     :style="`background-image: url(${backgroundPath})`"
@@ -37,12 +36,6 @@ defineProps({
 </script>
 
 <style scoped>
-section {
-  background-position: 50%;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-}
 .promotional-block {
   background-position: 50%;
   background-size: cover;
@@ -65,7 +58,7 @@ section {
   width: fit-content;
   color: white;
   background-color: #367d91;
-  padding: 1.5rem;
+  padding: 1.5rem 2.5rem;
   display: inline-block;
 }
 .promotional-block-excerpt {

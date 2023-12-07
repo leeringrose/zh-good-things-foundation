@@ -40,7 +40,7 @@ img {
   height: 100%;
 }
 .standard-header-logo {
-  height: 100%;
+  height: 70%;
   width: auto;
   margin-right: 1rem;
 }
@@ -49,7 +49,7 @@ img {
   align-items: center;
   justify-content: space-between;
   height: 108px;
-  padding: 10px 5%;
+  padding: 0 10%;
 }
 .hadear-nav-container {
   display: flex;

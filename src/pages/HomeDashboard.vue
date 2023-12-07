@@ -1,20 +1,22 @@
 <!-- eslint-disable max-len -->
 <template>
   <main class="dashboard-container">
-    <DashboardSection
+    <PrimarySection
       :title="dashboardTitles[0]"
       :excerpt="dashboardExcerpts[0]"
       :background-path="dashboardBlockBackgrounds[0]"
     />
-    <DashboardSection
+    <SecondarySection
       :title="dashboardTitles[1]"
       :excerpt="dashboardExcerpts[1]"
+      :background-path="dashboardBlockBackgrounds[1]"
     />
   </main>
 </template>
 
 <script setup lang="ts">
-import DashboardSection from '../components/DashboardSection.vue';
+import PrimarySection from '../components/PrimarySection.vue';
+import SecondarySection from '../components/SecondarySection.vue';
 import { dashboardTitles, dashboardExcerpts, dashboardBlockBackgrounds } from '../service.ts';
 
 </script>
@@ -24,8 +26,5 @@ import { dashboardTitles, dashboardExcerpts, dashboardBlockBackgrounds } from '.
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-section.promotional-block:not(:first-child)  {
-  margin: 1rem 0;
 }
 </style>

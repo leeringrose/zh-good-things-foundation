@@ -32,7 +32,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -43,9 +44,9 @@ h6 {
 }
 
 .large {
-  font-size: 3.375em;
+  font-size: 3.775em;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .standard {

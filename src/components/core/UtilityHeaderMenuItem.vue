@@ -34,8 +34,12 @@ defineProps({
 </script>
 
 <style scoped>
+img {
+  margin-right: 0.6667em;
+}
 .container {
   display: flex;
+  padding: 0.6667em 1.5em;
 }
 .list-item:hover {
   background: #ececec;
@@ -44,7 +48,5 @@ defineProps({
   height: 100%;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  padding-right: 1.5em;
-  padding-right: 1.5em;
 }
 </style>

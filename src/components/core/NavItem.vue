@@ -40,7 +40,4 @@ li {
   cursor: pointer;
   text-align: center;
 }
-.nav-item:hover {
-  background-color: rgb(0, 0, 0, 0.1);
-}
 </style>
