@@ -18,8 +18,9 @@
         {{ excerpt }}
       </p>
       <BlockButton 
-        color="white"
+        text-color="white"
         title="Learn more about us"
+        background-color="transparent"
       />
     </div>
   </section>
@@ -49,7 +50,6 @@ defineProps({
 <style scoped>
 .foreground {
   flex: 1;
-  height: fit-content;
 }
 .promotional-block {
   display: flex;
@@ -69,7 +69,6 @@ defineProps({
   padding: 4.25rem 3rem;
 }
 .promotional-block-title {
-  width: fit-content;
   font-size: 3.25em;
   line-height: 1.2;
   display: inline-block;

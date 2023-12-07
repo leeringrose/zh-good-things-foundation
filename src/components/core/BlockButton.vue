@@ -1,8 +1,10 @@
 <template>
   <div class="buttons-grouped">
     <a
-      :style="color==='white' ? `color: ${color}!important; background-color: transparent!important;`
-        :`color: #cf1b46`"
+      :style="`color: ${textColor}!important;`
+        +`background-color: ${backgroundColor}!important;`
+        +`border-color: ${borderColor}!important;`
+      "
       class="btn"
       href="https://www.goodthingsfoundation.org/digital-inclusion-time-for-action-not-words/"
     >
@@ -18,9 +20,17 @@ defineProps({
     type: String,
     required: true
   },
-  color: {
+  textColor: {
     type: String,
     default: '#cf1b46'
+  },
+  backgroundColor: {
+    type: String,
+    default: 'white'
+  },
+  borderColor: {
+    type: String,
+    default: 'white'
   }
 });
 </script>
