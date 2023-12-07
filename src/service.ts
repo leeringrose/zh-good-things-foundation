@@ -1,10 +1,28 @@
 export const navTitles = [
-  'Home',
-  'What we do',
-  'The digital divide',
-  'Get involved',
-  'Out network',
-  'Insights'
+  {
+    title: 'Home',
+    route: '/home'
+  },
+  {
+    title: 'What we do',
+    route: '/what-we-do'
+  },
+  {
+    title: 'The digital divide',
+    route: '/digital-divide'
+  },
+  {
+    title: 'Get involved',
+    route: '/get-involved'
+  },
+  {
+    title: 'Out network',
+    route: '/out-network'
+  },
+  {
+    title: 'Insights',
+    route: '/in-sights'
+  }
 ];
 
 export const dashboardTitles = [

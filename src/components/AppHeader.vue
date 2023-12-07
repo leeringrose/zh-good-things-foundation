@@ -13,13 +13,15 @@
     </a>
     <nav>
       <ul class="hadear-nav-container">
-        <NavItem
-          v-for="(title, index) in navTitles"
+        <router-link
+          v-for="(item, index) in navTitles"
           :key="index"
-          :title="title"
+          :to="item.route"
         >
-          {{ title }}
-        </NavItem>
+          <NavItem
+            :title="item.title"
+          />
+        </router-link>
       </ul>
     </nav>
   </header>

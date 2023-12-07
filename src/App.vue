@@ -1,15 +1,10 @@
 <template>
   <div id="app">
-    <UtilityHeader />
-    <AppHeader />
-    <HomeDashboard />
+    <router-view />
   </div>
 </template>
 
 <script setup lang="ts">
-import AppHeader from './components/AppHeader.vue';
-import UtilityHeader from './components/UtilityHeader.vue';
-import HomeDashboard from './pages/HomeDashboard.vue';
 </script>
 
 <style>
