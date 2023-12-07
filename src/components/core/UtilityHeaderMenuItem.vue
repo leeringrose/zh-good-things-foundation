@@ -21,8 +21,8 @@ import { defineProps } from 'vue';
 
 defineProps({
   searchIcon: {
-    type: String,
-    default: null
+    type: Boolean,
+    default: false
   },
   title: {
     type: String,

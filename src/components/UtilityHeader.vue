@@ -6,7 +6,7 @@
       >
         <UtilityHeaderMenuItem
           style="margin-right: auto;"
-          search-icon="true"
+          search-icon
           title="Search"
         />
         <UtilityHeaderMenuItem
