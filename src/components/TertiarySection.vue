@@ -38,7 +38,8 @@
 <script setup lang="ts">
 import { defineProps } from 'vue';
 import BlockButton from './core/BlockButton.vue';
-import { personOptions, digitalInitiatorOptions } from '../service';
+import { useDataStore } from '@/store/dataStore';
+const { personOptions, digitalInitiatorOptions } = useDataStore();
 
 defineProps({
   title: {

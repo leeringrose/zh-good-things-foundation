@@ -27,7 +27,8 @@
 import { defineProps } from 'vue';
 import BlockButton from './core/BlockButton.vue';
 import ServiceCard from './ServiceCard.vue';
-import { services } from '../service';
+import { useDataStore } from '../store/dataStore';
+const { services } = useDataStore();
 
 defineProps({
   title: {

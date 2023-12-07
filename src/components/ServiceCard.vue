@@ -13,6 +13,7 @@
     <section />
   </div>
 </template>
+
 <script setup lang="ts">
 import { defineProps } from 'vue';
 import BlockButton from './core/BlockButton.vue';
@@ -27,7 +28,6 @@ defineProps({
     default: 'Card body here'
   }
 });
-
 </script>
 
 <style scoped>

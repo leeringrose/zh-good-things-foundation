@@ -25,6 +25,7 @@
     </div>
   </section>
 </template>
+
 <script setup lang="ts">
 import { defineProps } from 'vue';
 import BlockButton from './core/BlockButton.vue';

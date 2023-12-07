@@ -29,7 +29,8 @@
 
 <script setup lang="ts">
 import NavItem from './core/NavItem.vue';
-import { navTitles } from '@/service';
+import { useDataStore } from '../store/dataStore';
+const { navTitles } = useDataStore();
 </script>
 
 <style scoped>

@@ -26,7 +26,8 @@ import PrimarySection from '../components/PrimarySection.vue';
 import SecondarySection from '../components/SecondarySection.vue';
 import TertiarySection from '../components/TertiarySection.vue';
 import ServiceSection from '../components/ServiceSection.vue';
-import { dashboardTitles, dashboardExcerpts, dashboardBlockBackgrounds } from '../service';
+import { useDataStore } from '../store/dataStore';
+const { dashboardTitles, dashboardExcerpts, dashboardBlockBackgrounds } = useDataStore();
 
 </script>
 
